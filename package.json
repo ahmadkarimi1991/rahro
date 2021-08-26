@@ -1,0 +1,30 @@
+{
+  "name": "rahro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "postcss ./src/css/**/*.css -o ./public/css/app.css -w",
+    "build:css": "postcss ./src/css/app.css -o ./public/css/app.css",
+    "prod:css": "NODE_ENV=production postcss ./src/css/app.css -o ./public/css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadkarimi1991/rahro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadkarimi1991/rahro/issues"
+  },
+  "homepage": "https://github.com/ahmadkarimi1991/rahro#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.3",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {
+    "win-node-env": "^0.4.0"
+  }
+}
