@@ -3,55 +3,77 @@
 @import "tailwindcss/utilities";
 
 @font-face {
-    font-family: Sahel;
-    src: url('../fonts/Sahel/Sahel.eot');
-    src: url('../fonts/Sahel/Sahel.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Sahel/Sahel.woff2') format('woff2'),
-         url('../fonts/Sahel/Sahel.woff') format('woff'),
-         url('../fonts/Sahel/Sahel.ttf') format('truetype');
-    font-weight: normal;
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/IRANSansX/woff/IRANSansX-thin.woff") format("woff"),
+       url("../fonts/IRANSansX/woff2/IRANSansX-thin.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: Sahel;
-    src: url('../fonts/Sahel/Sahel-Bold.eot');
-    src: url('../fonts/Sahel/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Sahel/Sahel-Bold.woff2') format('woff2'),
-         url('../fonts/Sahel/Sahel-Bold.woff') format('woff'),
-         url('../fonts/Sahel/Sahel-Bold.ttf') format('truetype');
-    font-weight: bold;
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/IRANSansX/woff/IRANSansX-UltraLight.woff") format("woff"),
+       url("../fonts/IRANSansX/woff2/IRANSansX-UltraLight.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: Sahel;
-    src: url('../fonts/Sahel/Sahel-Light.eot');
-    src: url('../fonts/Sahel/Sahel-Light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Sahel/Sahel-Light.woff2') format('woff2'),
-         url('../fonts/Sahel/Sahel-Light.woff') format('woff'),
-         url('../fonts/Sahel/Sahel-Light.ttf') format('truetype');
-    font-weight: 300;
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/IRANSansX/woff/IRANSansX-light.woff") format("woff"),
+       url("../fonts/IRANSansX/woff2/IRANSansX-light.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: Sahel;
-    src: url('../fonts/Sahel/Sahel-SemiBold.eot');
-    src: url('../fonts/Sahel/Sahel-SemiBold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Sahel/Sahel-SemiBold.woff2') format('woff2'),
-         url('../fonts/Sahel/Sahel-SemiBold.woff') format('woff'),
-         url('../fonts/Sahel/Sahel-SemiBold.ttf') format('truetype');
-    font-weight: 600;
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/IRANSansX/woff/IRANSansX-medium.woff") format("woff"),
+       url("../fonts/IRANSansX/woff2/IRANSansX-medium.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: Sahel;
-    src: url('../fonts/Sahel/Sahel-Black.eot');
-    src: url('../fonts/Sahel/Sahel-Black.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Sahel/Sahel-Black.woff2') format('woff2'),
-         url('../fonts/Sahel/Sahel-Black.woff') format('woff'),
-         url('../fonts/Sahel/Sahel-Black.ttf') format('truetype');
-    font-weight: 900;
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/IRANSansX/woff/IRANSansX-demibold.woff") format("woff"),
+       url("../fonts/IRANSansX/woff2/IRANSansX-demibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/IRANSansX/woff/IRANSansX-extrabold.woff") format("woff"),
+       url("../fonts/IRANSansX/woff2/IRANSansX-extrabold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/IRANSansX/woff/IRANSansX-black.woff") format("woff"),
+       url("../fonts/IRANSansX/woff2/IRANSansX-black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/IRANSansX/woff/IRANSansX-bold.woff") format("woff"),
+       url("../fonts/IRANSansX/woff2/IRANSansX-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/IRANSansX/woff/IRANSansX-regular.woff") format("woff"),
+       url("../fonts/IRANSansX/woff2/IRANSansX-regular.woff2") format("woff2");
 }
 
 html[dir="rtl"] body {
-    font-family: Sahel, sans-serif;
+  font-family: IRANSansX;
 }
