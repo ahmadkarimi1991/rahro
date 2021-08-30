@@ -54,8 +54,8 @@
   font-family: IRANSansX;
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/IRANSansX/woff/IRANSansX-black.woff") format("woff"),
-       url("../fonts/IRANSansX/woff2/IRANSansX-black.woff2") format("woff2");
+  src: url("../fonts/IRANSansX/woff/IRANSansX-Black.woff") format("woff"),
+       url("../fonts/IRANSansX/woff2/IRANSansX-Black.woff2") format("woff2");
 }
 
 @font-face {
